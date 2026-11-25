@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HR Kiosk – Download</title>
+<style>
+  :root{--bg:#fff;--fg:#111;--mut:#666;--line:#e5e5e5;--acc:#1a6ef5}
+  @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#111;--fg:#f2f2f2;--mut:#9a9a9a;--line:#2a2a2a;--acc:#5b9bff}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;padding:16px}
+  main{max-width:34rem;width:100%}
+  h1{font-size:1.7rem;margin:0 0 .25rem}
+  p.sub{color:var(--mut);margin:0 0 2rem}
+  a.dl{display:block;text-align:center;background:var(--acc);color:#fff;text-decoration:none;font-weight:600;padding:1rem;border-radius:.6rem;margin-bottom:2rem}
+  .box{border:1px solid var(--line);border-radius:.6rem;padding:1rem 1.25rem;margin-bottom:1rem}
+  code{background:var(--line);padding:.15em .4em;border-radius:.3em;font-size:.95em;word-break:break-all}
+  ol{padding-left:1.3rem;margin:.5rem 0 0}
+  h2{font-size:1rem;margin:0}
+  footer{color:var(--mut);font-size:.85rem;text-align:center}
+</style>
+<main>
+  <h1>HR Kiosk</h1>
+  <p class="sub">Android-App für Fire TV &amp; Android TV</p>
+
+  <a class="dl" href="hr.apk" download>APK herunterladen (742 KB)</a>
+
+  <div class="box">
+    <h2>Installation auf dem Fire TV Stick</h2>
+    <ol>
+      <li>App <strong>Downloader</strong> aus dem Amazon Appstore installieren</li>
+      <li><em>Einstellungen → My Fire TV → Entwickleroptionen → Apps unbekannter Herkunft</em> für Downloader erlauben</li>
+      <li>In Downloader eingeben: <code>is.gd/hrkiosk</code></li>
+      <li><strong>Go</strong> → APK lädt → <strong>Installieren</strong></li>
+    </ol>
+  </div>
+
+  <div class="box">
+    <h2>Kurzlink</h2>
+    <p style="margin:.5rem 0 0"><code>is.gd/hrkiosk</code> — leitet direkt auf die APK, praktisch zum Eintippen mit der Fernbedienung.</p>
+  </div>
+
+  <footer>HR Code Solution</footer>
+</main>
+</html>
